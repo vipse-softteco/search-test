@@ -6,10 +6,12 @@ import {
   Redirect,
 } from "react-router-dom";
 
+import UsersPage from "../modules/UsersPage";
+
 const AppRouter = () => (
   <Router>
     <Switch>
-      <Route exact path="/users" component={() => <div>Users Page</div>} />
+      <Route exact path="/users" component={UsersPage} />
       <Route path="/" component={() => <Redirect to="/users" />} />
     </Switch>
   </Router>

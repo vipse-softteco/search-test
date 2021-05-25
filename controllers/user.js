@@ -6,7 +6,6 @@ module.exports.getAllUsers = async (req, res, next) => {
 
     res.status(200).json(allUsers);
   } catch (e) {
-    console.log(e);
     res.status(500).send("Server Error");
   }
 };

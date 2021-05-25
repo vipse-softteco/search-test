@@ -10,7 +10,6 @@ function* onGetUsers() {
 
     yield put(types.getUsersSuccess(result.data));
   } catch (error) {
-    console.log(error);
     yield put(types.getUsersFailure());
   }
 }
