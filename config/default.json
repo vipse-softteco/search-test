@@ -1,0 +1,4 @@
+{
+  "MONGO_URI": "mongodb+srv://test-search-user:RHrjsSkGMbA5wqXF@search-test.4rmfa.mongodb.net/search-test?retryWrites=true&w=majority",
+  "SERVER_PORT": 5000
+}
